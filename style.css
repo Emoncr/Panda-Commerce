@@ -1,0 +1,32 @@
+.container{
+    margin-bottom: 100px;
+}
+.carousel_bg{
+    background-color: #ffe6e3;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 50px;
+}
+.carousel-item h1{
+    font-size: 42px;
+    color: black;
+    font-weight: 500;
+    padding: 5px;
+
+}
+.carousel-item .price{
+    color: #ff1f77;
+}
+.carousel-item button{
+    border: none;
+    background-image: linear-gradient(180deg,#ff1f77 , #ff0077);
+    padding: 10px 27px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: black 1px 1px 10px ;
+}
+.carousel-item button:hover{
+    background-color:#eb0360 ;
+    color: black;
+}
