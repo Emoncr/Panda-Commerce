@@ -18,15 +18,61 @@
 .carousel-item .price{
     color: #ff1f77;
 }
-.carousel-item button{
+
+.cat1{
+    background-image:linear-gradient( 45deg,#ffa500,#ee9b00);
+}
+.cat2{
+    background-image:linear-gradient( 45deg,#da70d6,#e152dc);
+}
+.cat3{
+    background-image:linear-gradient( 45deg,#0000ff,#1d1dff);
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat h1{
+    color: white;
+}
+.cat img{
+    width: 100px;
+}
+
+                                   /* card */
+
+.buy_now-button{
     border: none;
     background-image: linear-gradient(180deg,#ff1f77 , #ff0077);
-    padding: 10px 27px;
+    padding: 10px 40px;
     border-radius: 7px;
     color: white;
-    box-shadow: black 1px 1px 10px ;
+    box-shadow: black 1px 1px 5px ;
+    transition: 0.3s;
 }
-.carousel-item button:hover{
-    background-color:#eb0360 ;
-    color: black;
+.buy_now-button:hover{
+    background-image: linear-gradient(180deg,#ff0077,#ff1f77);
+    color: rgb(187, 187, 187);
+}
+.card{
+    border-radius:10px;
+    box-shadow: 5px 5px 10px lightgray ;
+}
+.card-footer{
+    border: none;
+}
+.subscribe{
+    height: 300px;
+    background-color:  #ffe6e3;
+}
+.subscribe h6{
+    color: gray;
+}
+.subscribe input{
+    margin-bottom: 10px;
+}
+footer h6{
+    font-size: 14px;
+    font-size: 300;
+    text-align: center;
 }
